@@ -1,4 +1,5 @@
 # DP 201 - Designing an Azure Data Platform Solution.
+
 # Lab 3 - Azure Real-Time Reference Architectures.
 
 **Estimated Time**: 60 minutes
@@ -12,7 +13,7 @@
 The students will use the case study to identify which business and technical requirements relate to a Lambda architecture from a real-time perspective. The student will then architect a streaming pipeline with Azure Stream Analytics and Azure Databricks. Finally, the students will attempt to design an IoT architecture as it relates to the meeting of the AdventureWorks business requirements.
 
 ## Lab objectives
-  
+
 After completing this lab, you will be able to:
 
 1. Architect a stream processing pipeline with Azure Stream Analytics
@@ -20,7 +21,7 @@ After completing this lab, you will be able to:
 1. Create an Azure IoT reference architecture
 
 ## Scenario
-  
+
 You are the senior data engineer of AdventureWorks. You are designing and architecting a solution that will deal with the real-time processing of data. You have been advised that the solution architecture should take a holistic view of all the business requirements and your proposal should be presented in a Word document.
 
 You will first identify which AdventureWorks requirements fits into real-time processing of a Lambda architecture. You will then provide an architecture for a stream processing pipeline with Azure Stream Analytics and Azure Databricks. You will also design a first pass on an IoT architecture.
@@ -31,14 +32,14 @@ At the end of this lab, you will have:
 1. Design a stream processing pipeline with Azure Databricks.
 1. Create an Azure IoT reference architecture.
 
->**Note**: This lab is in two parts. This is part 1 where you work as a group to answer the questions. The timings of each exercise is at the discretion of the group. The entire lab should be completed within 60 minutes. In Part 2, the instructor will drive a discussion with the group about their learnings and findings about the Lab.
+> **Note**: This lab is in two parts. This is part 1 where you work as a group to answer the questions. The timings of each exercise is at the discretion of the group. The entire lab should be completed within 60 minutes. In Part 2, the instructor will drive a discussion with the group about their learnings and findings about the Lab.
 
->**Resources**: As well as the using the course case study for this lab, you use also use resources such a [Microsoft Documentation](https://docs.microsoft.com), the [Azure Reference Architecture Site](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/) and the [Microsoft Customer Stories Site](https://customers.microsoft.com/) to help inform you in answering questions in this lab.
+> **Resources**: As well as the using the course case study for this lab, you use also use resources such a [Microsoft Documentation](https://docs.microsoft.com), the [Azure Reference Architecture Site](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/) and the [Microsoft Customer Stories Site](https://customers.microsoft.com/) to help inform you in answering questions in this lab.
 
 ## Exercise 1: Architect a stream processing pipeline with Azure Stream Analytics.
 
 **Group exercise**
-  
+
 The main task for this exercise is as follows:
 
 1. From the case study, identify the requirements that would form part of the real-time processing of data in AdventureWorks.
@@ -64,7 +65,7 @@ The main task for this exercise is as follows:
 ## Exercise 2: Design a stream processing pipeline with Azure Databricks.
 
 **Group exercise**
-  
+
 The main task for this exercise is as follows:
 
 1. Create a high level Architecture to include a stream processing pipeline with Azure Databricks solution in AdventureWorks.
@@ -80,7 +81,7 @@ The main task for this exercise is as follows:
 ## Exercise 3: Create an Azure IoT reference architecture.
 
 **Group exercise**
-  
+
 The main task for this exercise is as follows:
 
 1. Confirming which architecture created would form part of an Azure IoT reference architecture.
