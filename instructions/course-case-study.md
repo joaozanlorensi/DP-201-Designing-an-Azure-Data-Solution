@@ -25,7 +25,7 @@ In a discovery workshop you ascertained the following information:
 
 The web developers at AdventureWorks are transferring the existing website from an on-premises instance of IIS, to an Azure Web App. They have requested that a data store is made available that will hold the images of the products that are sold on the website.
 
-## Current Sales / Ordering system 
+## Current Sales / Ordering system
 
 The current software on which bicycle purchases are tracked, is a web-based application which directly stores order information into an on-premises SQL Server database named AdventureWorks2012. The current application is deployed with high-availability provided by SQL Server 2012 Always-on Availability groups. Due to global expansion and data governance requirements, AdventureWorks will transition this system to better serve their customers and will be looking for global availability of its application and data sales and ordering purposes, particularly during the months of November and December when demand for bikes grow ahead of the holiday period.
 
@@ -40,13 +40,14 @@ You are also assessing the tooling that can help with the extraction, load and t
 ## Customer Service / Presales
 
 Customer service and pre-sales departments are currently experiencing scale issues due to the high call volumes. The organization wants to support the customer services staff in handling the call volumes through the implementation of chat bots in which future bicycle owners can:
+
 - Find which bicycle is best for them:
-    - Through a set of questions with the chat bot, custom recommendations are given to potential bike owners, who then can take the recommendation and place an order, or can be redirect to a sales specialist to help them with their needs
+  - Through a set of questions with the chat bot, custom recommendations are given to potential bike owners, who then can take the recommendation and place an order, or can be redirect to a sales specialist to help them with their needs
 - Check status on current orders:
-    - Retrieve status on current orders, and estimated delivery times
+  - Retrieve status on current orders, and estimated delivery times
 - Find bicycle parts suitable for their existing bicycle:
-    - Existing bicycle owners can find recommended bicycle parts and accessories based on the serial number or model number of their bicycle
-    - Existing bicycle owners, can upload a picture of their bicycle or take a picture of the serial number of their bicycle to assist with the identification of their bicycle and have recommended bicycle parts
+  - Existing bicycle owners can find recommended bicycle parts and accessories based on the serial number or model number of their bicycle
+  - Existing bicycle owners, can upload a picture of their bicycle or take a picture of the serial number of their bicycle to assist with the identification of their bicycle and have recommended bicycle parts
 
 Over the last few years the customer services departments have observed an increase in calls from fraudulent customer who are asking for support for bikes that are no longer in warranty, or bikes that have not even been purchased at AdventureWorks. The department are currently relying on the experience of customer services agents to identify this. As a result, they would like to implement a system that can help the agents track in real-time who could be making a fraudulent claim.
 
@@ -67,7 +68,7 @@ AdventureWorks Bicycles can be equipped with an innovate built-in bicycle comput
 - Bicycle Locked / Unlocked
 - Bicycle parts and components information (on electrical bicycles)
 
-First party and 3rd party applications can have access the information of the bicycle computer that must be secure and for the integration into mobile applications and real time display of location and bike ride sharing information. 
+First party and 3rd party applications can have access the information of the bicycle computer that must be secure and for the integration into mobile applications and real time display of location and bike ride sharing information.
 
 Furthermore, daily summary data can be saved to flat files that include Bicycle model, serial number, registered owner and a summary of the total miles cycled per day and the average speed.
 
